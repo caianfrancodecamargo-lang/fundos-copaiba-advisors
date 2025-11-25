@@ -332,8 +332,8 @@ def add_watermark_and_style(fig, logo_base64=None, x_range=None, x_autorange=Tru
                 yref="paper",
                 x=0.5,
                 y=0.5,
-                sizex=1.00,  # 120% do tamanho do gráfico
-                sizey=1.00,  # 120% do tamanho do gráfico
+                sizex=0.75,  # 120% do tamanho do gráfico
+                sizey=0.75,  # 120% do tamanho do gráfico
                 xanchor="center",
                 yanchor="middle",
                 opacity=0.15,  # <<< OPACIDADE DA MARCA D'ÁGUA AUMENTADA PARA 0.15
